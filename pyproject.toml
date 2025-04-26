@@ -1,0 +1,11 @@
+[project]
+name = "link-shortening"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flet[all]==0.27.6",
+    "pyperclip>=1.9.0",
+    "pyshorteners>=1.0.1",
+]
