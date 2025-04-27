@@ -16,7 +16,7 @@ def shorten_url(url: str) -> str:
 
 
 def main(page: ft.Page):
-    page.title = "link shortener"
+    page.title = "URL shortener"
     page.theme_mode = 'dark'
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
